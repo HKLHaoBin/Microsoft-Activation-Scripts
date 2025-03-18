@@ -1,109 +1,58 @@
 <p align="center"><img src="https://massgrave.dev/img/logo_small.png" alt="MAS Logo"></p>
 
-<h1 align="center">Microsoft  Activation  Scripts (MAS)</h1>
+<h1 align="center">微软激活脚本 (MAS)</h1>
 
-<p align="center">Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting.</p>
+<p align="center">开源的 Windows 和 Office 激活工具，包含 HWID、Ohook、TSforge、KMS38 和在线 KMS 激活方法，以及高级故障排除功能。</p>
 
 <hr>
-  
-## Download / How to use it?
 
-### Method 1 - PowerShell (Windows 8 and later) ❤️
+## 下载 / 如何使用？
 
-1.   Open PowerShell (Not CMD). To do that, right-click on the Windows start menu and select PowerShell or Terminal.
-2.   Copy and paste the code below and press enter  
-```
+### 方法 1 - PowerShell (Windows 8 及更高版本) ❤️
+
+1. 打开 PowerShell（而不是 CMD）。为此，右键点击 Windows 开始菜单并选择 PowerShell 或 Terminal。
+2. 复制并粘贴下面的代码，然后按回车键
+请提供需要翻译的文本内容
 irm https://get.activated.win | iex
-```
-Alternatively, you can use the following (It will be deprecated in the future.)  
-```
+请直接提供需要翻译的文本内容，我将按照要求进行翻译
+或者，你可以使用以下方法（它将在未来被弃用。）
+请提供需要翻译的文本内容
 irm https://massgrave.dev/get | iex
-```
-3.   You will see the activation options. Choose (1) HWID for Windows activation. Choose (2) Ohook for Office activation.
-4.   That's all.
+请提供需要翻译的文本内容
+3.   你会看到激活选项。选择 (1) HWID 进行 Windows 激活。选择 (2) Ohook 进行 Office 激活。
+4. 这就是全部了。
 
 ---
 
-### Method 2 - Traditional (Windows 7 and later)
+### 方法 2 - 传统方式（适用于 Windows 7 及更高版本）
 
 <details>
-  <summary>Click here for info</summary>
+<summary>点击这里获取信息</summary>
 
-1.   Download the file using the links provided below.  
-`https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip`  
-or  
+1. 使用下方提供的链接下载文件。
+`https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip`
+或
 `https://git.activated.win/massgrave/Microsoft-Activation-Scripts/archive/master.zip`
-2.   Right-click on the downloaded zip file and extract
-3.   In the extracted folder, find the folder named `All-In-One-Version`
-4.   Run the file named `MAS_AIO.cmd`
-5.   You will see the activation options, follow the on-screen instructions.
-6.   That's all.
+2.   右键点击下载的 zip 文件并解压
+3. 在解压文件夹中，找到名为 `All-In-One-Version` 的文件夹
+4.   运行名为 `MAS_AIO.cmd` 的文件
+5.   您会看到激活选项，请按照屏幕上的指示进行操作。
+6. 这就是全部了。
 
 </details>
 
 ---
 
-### Not working ❓
+### 无法工作 ❓
 
-- If you are **unable to launch MAS** using the PowerShell method, please refer to **Method 2** listed above.
-- If MAS is launched and the script shows any errors, check for any troubleshooting steps mentioned in blue color and try to follow those.
-- If you have any issues, please feel free to reach out to us [here](https://massgrave.dev/troubleshoot).
+- 如果您无法通过 PowerShell 方法启动 MAS，请参考上面列出的**方法 2**。
+- 如果启动 MAS 时脚本显示任何错误，请检查以蓝色显示的任何故障排除步骤，并尝试遵循这些步骤。
+- 如果您有任何问题，请随时通过 [here](https://massgrave.dev/troubleshoot) 与我们联系。
 
 ---
 
-> [!NOTE]
+> [! 注意]
 >
-> - The IRM command in PowerShell downloads a script from a specified URL, and the IEX command executes it.
-> - Always double-check the URL before executing the command and verify the source if manually downloading files.
-> - Be cautious, as some spread malware disguised as MAS by using different URLs in the IRM command.
-
----
-
-To run the scripts in unattended mode, check [here](https://massgrave.dev/command_line_switches).
-
-```
-Latest Version: 3.0
-Release date: 14-Feb-2025
-```
-
-### [Troubleshooting / Help](https://massgrave.dev/troubleshoot)
-### [Download Original Windows & Office](https://massgrave.dev/genuine-installation-media)
-### Homepage - [https://massgrave.dev/](https://massgrave.dev/)
-
-<div align="center">
-  
-[![1.1]][1]
-[![1.2]][2]
-[![1.3]][3]
-
-</div>
-
-<div align="center">
-  
-[![1.4]][4]
-[![1.5]][5]
-[![1.6]][6]
-[![1.7]][7]
-
-</div>
-
-[1.1]: https://massgrave.dev/img/logo_github.png (GitHub)
-[1.2]: https://massgrave.dev/img/logo_azuredevops.png (AzureDevOps)
-[1.3]: https://massgrave.dev/img/logo_gitea.png (Self-hosted Git)
-
-[1.4]: https://massgrave.dev/img/logo_discord.png (Chat with us without signup)
-[1.5]: https://massgrave.dev/img/logo_reddit.png (Reddit)
-[1.6]: https://massgrave.dev/img/logo_bluesky.png (Bluesky)
-[1.7]: https://massgrave.dev/img/logo_x.png (Twitter)
-
-[1]: https://github.com/massgravel/Microsoft-Activation-Scripts
-[2]: https://dev.azure.com/massgrave/_git/Microsoft-Activation-Scripts
-[3]: https://git.activated.win/massgrave/Microsoft-Activation-Scripts
-[4]: https://discord.gg/j2yFsV5ZVC
-[5]: https://www.reddit.com/r/MAS_Activator
-[6]: https://bsky.app/profile/massgrave.dev
-[7]: https://twitter.com/massgravel
-
----
-
-<p align="center">Made with Love ❤️</p>
+> - PowerShell 中的 IRM 命令从指定的 URL 下载脚本，IEX 命令则执行该脚本。
+> - 在执行命令前务必双重检查 URL，并在手动下载文件时验证来源。
+> - 请谨慎，因为有些人通过在 IRM 命令中使用不同的 URL 来传播伪装成 MAS 的恶意软件。
